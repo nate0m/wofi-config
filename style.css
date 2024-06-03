@@ -1,0 +1,33 @@
+@import url("///home/nate/.cache/wal/colors-waybar.css");
+
+window {
+margin: 5px;
+border-radius: 5px;
+border: 2px solid @color1;
+background-color: @color14;
+}
+
+#input {
+margin: 5px;
+border: none;
+background-color: @color14;
+color: @background;
+outline: none;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: @color14;
+color: @background;
+}
+
+#entry:selected {
+background-color: @color1;
+}
+
+#text:selected {
+background-color: @color1;
+border: none;
+color: @background;
+}
